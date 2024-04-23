@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset= "UTF-8"> <!--teclado em português-->
+ 		<title>Hello World!</title>
+ 	</head>
+
+ 	<body>
+ 		<script>
+ 			document.write("Bom dia! Hello Word"): //tag que identifica scripts
+ 			console.log("POU POU POU");
+
+ 		</script>
+		<h1>Hello World!</h1> <!--titulo ele vai de h1 até h6-->
+		<p>Esse é meu primeiro código HTML <p> <!--paragrafo-->
+		<a href="https://github.com/Gyovannabrito/lp-fullstack2024.git">Github Gyovanna</a> <!--criar link-->
+
+		<a href="https://www.istockphoto.com/br/vetor/%C3%ADcones-da-linha-lisa-do-desenvolvimento-de-software-ajustados-linguagem-de-gm1173282484-325814881"><img src="C:\Users\DOCENTE\Pictures\Saved Pictures\1.jpg" witdth="200" height="200"></a> <!--imagens/ com link para entre em um site-->
+
+ 	</body>
+ </html>
