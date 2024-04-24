@@ -1,0 +1,65 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+a = float(input()) #casting - conversão
+b = float(input())
+c = 2
+x = a + b / c
+print("x = " + str(x))
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+1005
+
+a = float(input()) #casting - conversão
+b = float(input())
+MEDIA = ((a*3.5) + (b*7.5))/11
+print("MEDIA = %.5f"%MEDIA)
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+1006
+
+a = float(input()) #casting - conversão
+b = float(input())
+c = float(input())
+
+MEDIA = ((a*2) + (b*3) + (c*5))/10
+print("MEDIA = %.1f"%MEDIA)
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+1059
+
+n = 1
+while(n <= 100):
+    if(n%2 == 0):
+        print(n)
+    n = n+1
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+1078
+
+n = int(input())
+N = 1
+while(N <= 10):
+    tabuada = n * N
+    print(N, "x", n, "=", tabuada)
+    N+=1 
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+1060
+
+n = 1 #variavel que controla a repetição  
+soma = 0 #variavel guarda a quantidade de numeros positivos 
+aux = 0 #variavel que guarda a entrada do usuario 
+while(n <= 6): #repetição enquanto "n" for menor ou igual a "6"
+    aux = float(input()) #entrada do usuario 
+    n = n + 1 #soma a controlação da repetição 
+    if(aux > 0 ): #verificando se o numero digitado pelo usuario é positivo / maior que 0
+        soma = soma + 1 #soma a quantidade de numeros positivos 
+print(str(soma) + " valores positivos") #mostra o resultado final
+
+
+
+
