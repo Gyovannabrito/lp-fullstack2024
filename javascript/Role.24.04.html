@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="UTF-8">
+
+	</head>
+
+
+	<body>
+
+		<script>
+			let role = 0 //variavel
+			let sim = 0 //guarda a quantidade de vezes que a pessoa disse sim
+			while(role < 4){//repetição 
+				resposta = prompt("Você foi pro role da Daniele?"); //escreve tela
+					if(resposta == "sim"){//se a resposta for sim
+					sim = sim + 1 // soma quantas vezes usuario disse sim
+					 
+				}
+				
+            	role = role + 1 //controla a repetição
+            }
+            if(sim >= 2){//verifica a quantidade de vezes que o usuario disse sim
+					document.write("Tá filmando, Santos?");//
+				}else{//se a resposta for não
+            		document.write("Me dá um abraço!");
+            	}
+		</script>
+
+
+	</body>
+
+</html> 
