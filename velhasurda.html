@@ -1,0 +1,25 @@
+<script>
+
+let TCHAU = 0 //variavel
+
+console.log("Oi, meu filho!"); //escreve na tela
+
+while(TCHAU < 3){//repetição
+    resposta = prompt();
+        if(resposta == resposta.toUpperCase() && resposta != "TCHAU"){//verifica quando escreve maiusculo
+            console.log("Não, desde 19" + Math.floor(Math.random()*(39 - 59 + 1)+ 59));//escreve na tela 39 - 59
+            TCHAU = 0;// se for igual ou diferente de Tchau, zere a contagem de tchau
+        }else if(resposta == "TCHAU"){//se tchau for falso guarda 
+            TCHAU = TCHAU + 1 //soma quantas vezes disse tchau
+        }
+        else{
+        	console.log("AN, fala mais alto?");//escreve na tela 
+        	TCHAU = 0;
+		}
+		console.log("esse é o valor de tchau " + TCHAU)
+}
+console.log("Adeus");
+
+</script>
+
+tchau -> TCHAU
