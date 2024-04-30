@@ -1,0 +1,22 @@
+
+<script>
+//escrever um programa que calcula o valor total de gastos com passagem aéreas.
+//o programa devera ler a quantidade de passageiros e imprimir o valor total gasto.
+//considere o valor das passagens como: 5000
+//verificar se a viagem é nacional ou internacional
+//nacional 3000; internacional 5000;
+
+	let passagem = 3000;//variavel da quantidade da passagem caso viagem nacional
+	let passagem2 = 5000;//variavel da quantidade da passgem caso viagem internaional
+
+	resposta2=prompt("internaional ou nacional?");// ler se a viagem vai ser internacional ou nacional
+	resposta3=prompt("criança ou idoso");//ler se vai ser criança ou idoso
+	resposta=prompt("Quantos passageiros?"); //ler quantidade de passageiros	
+	if(resposta2 == "internacional"){// se a resposta for igual a internacional
+		ValorTotal = resposta * 5000;//multiplicar o resultado se a viagem for internacional 
+	
+	}else if(resposta2 == "nacional"){
+		ValorTotal = resposta * 3000;//multiplica o resultado se a viagem for nacional
+	}
+	console.log(ValorTotal);//imprime o valor total da viagem
+</script>
