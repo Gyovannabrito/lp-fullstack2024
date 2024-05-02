@@ -1,0 +1,26 @@
+<script>//Faça um programa que leia a quantidade de passageiros.
+//diga qual será o valor total gasto com as passagens.
+//Considere que o valor da passagem é: R$3.000.
+//Faça o programa identificar se a viagem é NACIONAL ou INTERNACIONAL.
+//Valor da passagem NACIONAL: R$ 3.000
+//Valor da passagem INTERNACIONAL: R$ 5.000
+//Faça o programa verificar se há  crianças entre os passageiros.
+//NACIONAL: 1.500; INTERNACIONAL 3.000
+let resposta; //variavel de aparecer na tela
+let crianca; //variavel onde guarda se tem crianças
+let escolha; //variavel da escolha se vai ser nacional ou internacional
+
+resposta = prompt("Quantos passageiros?");//imprimir na tela
+crianca = prompt("Tem crianças? quantas?");//imprimir se a crianças ou não
+escolha = prompt("nacional ou internacional?");//imprimir se vai ser nacional ou internacional
+resposta = resposta - crianca //se da negatino
+	if(escolha == "nacional" && resposta >= 0){
+		resposta = resposta * 3000// multiplicar a quantidade de passageiros adultos
+		crianca = crianca * 1500//multiplicar a quantidade de passageiros criancas
+		console.log(resposta + crianca);//se ele escolher nacional
+	}else if(escolha == "internacional" && resposta >= 0){
+		resposta = resposta * 5000// multiplicar a quantidade de passageiros adultos
+		crianca = crianca * 3000 //multiplicar a quantidade de passageiros criancas
+		console.log(resposta + crianca);//e se ele escolher internacional
+	}
+</script>
