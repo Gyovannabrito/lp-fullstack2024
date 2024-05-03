@@ -1,0 +1,15 @@
+saldo = int(input("Informe o saldo inicial")) #texto 
+encerrar = "n"
+while(encerrar == "n"):
+    tipo = int(input("Informe tipo de entreada. 1- Compra ou 2- Venda"))
+    quantidade = int(input("informe a quantidade"))
+        
+    if(tipo == 1):
+        saldo = saldo + quantidade
+        print("Entrada de: " + str(saldo))
+    elif(tipo == 2 and quantidade <= saldo):
+        saldo = saldo - quantidade
+    else:
+        print("saldo Insuficiente")
+    encerrar =  input("Deseja encerrar o programa? s para encerrar/ n para continuar usando")
+print("O saldo final é:" + str(saldo))

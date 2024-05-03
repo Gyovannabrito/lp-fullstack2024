@@ -1,0 +1,26 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+aux = 0 #auxiliar na repetição 
+while (aux <= 100):
+    print("TCHAU")
+    print(aux)
+    aux = aux + 1
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+#indagar uma pessoa 4 vezes se ela foi 
+# pro role da daniele.
+#caso a pessoa tenha ido 2 vezes para o role 
+#ela recebera uma ponição.
+#caso não tenha ido pelo menos 2 vezes
+#ela receberá um abraço 
+
+role = 0
+while (role < 3):
+    
+    print("Você foi pro role da Daniele?")
+    resposta = input() #lê a resposta do usuario
+    if (resposta == "sim"):
+            print("Mãe: Tá filmando, Santos?")
+    elif(resposta == "não"):
+            print("Me dá um abraço!")
+    
+    role = role + 1
