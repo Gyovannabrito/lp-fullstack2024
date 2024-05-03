@@ -1,0 +1,22 @@
+<script>
+let notdonem = parseInt(prompt("Insira a sua nota do ENEM"));
+let curso;
+
+switch(notadoenem){
+	case 900:
+		curso = "medicina";
+	break;
+	case 800:
+		curso = "Engenharia";
+	break;
+	case 700:
+		curso = "Psicologia";
+	break;
+	case 600:
+		curso = "Pedagogia";
+	break;
+}
+
+document.writw("O curso que a Gyovanna irá estudar é:" + curso);
+
+</script>
