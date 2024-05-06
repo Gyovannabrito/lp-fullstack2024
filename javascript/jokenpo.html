@@ -1,0 +1,46 @@
+<script>
+
+let score = 0; //variavel da escolha do usuario
+let cpuScore = 0;// escolha do número aleatorio do play2 
+let play1 = 0; //variavel que guarda a pontuação do primeiro jogador
+let play2 = 0;//variavel que guarda a pontuação do segundo jogador
+
+while(score < 3 && cpuScore < 3){//enquanto play1 ou o play2 não tiverem 3 pontos, repita
+    play1 = prompt("1: Pedra 2: Papel 3: Tesoura");//imprime na tela
+    console.log("play1 " + score + " vs " + cpuScore + " play2");//guarda o placar das pontuações
+    play2 = Math.floor(Math.random()*3 + 1);//escolher o número aleatorio da play2
+
+        if(play1 == 1 && play2 == 2){//derrota player
+            cpuScore+=1
+            console.log("sua escolha - escolha da cpu " + play2);
+        }
+        if(play1 == 1 && play2 == 3){//vitoria do play
+            score+=1
+            console.log("sua escolha - escolha da cpu " + play2);
+        }
+        if(play1 == 2 && play2 == 1){//vitoria do play
+            score+=1
+            console.log("sua escolha - escolha da cpu " + play2);
+        }
+        if(play1 == 2 && play2 == 3){//derrota player
+            cpuScore+=1
+            console.log("sua escolha - escolha da cpu " + play2);
+        }
+        if(play1 == 3 && play2 == 1){//derrota player
+            cpuScore+= 1
+            console.log("sua escolha - escolha da cpu " + play2);
+        }
+        if(play1 == 3 && play2 ==2){//vitoria do play
+            score+=1
+            console.log("sua escolha - escolha da cpu " + play2);
+        }
+}
+
+console.log("play1 " + score + " vs " + cpuScore + " play2");
+
+if(score == 3){
+    console.log("Play1 Ganhou");
+}else{
+    console.log("Cpu ganhou");
+}
+</script>
