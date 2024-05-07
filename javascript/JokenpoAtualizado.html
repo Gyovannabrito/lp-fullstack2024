@@ -1,0 +1,20 @@
+<script>
+let escolha; //ESCOLHA DO JOGADOR
+let ponto = 0; //PONTUAÇÃO DO JOGADOR
+let escolhaCpu; //ESCOLHA DA CPU
+let pontoCpu = 0; //PONTUAÇÃO DA CPU
+while(ponto < 3 && pontoCpu < 3){ //IRIA REPETIR ATÉ ALGUÉM GANHA 3 VEZES
+	escolha = prompt("1: Pedra 2: Papel 3: Tesoura"); //APARECE NA TELA
+	escolhaCpu =  Math.floor(Math.random()*3 + 1); //ESCOLHA ALEATORIA DA CDP
+		if(escolha == 1 && escolhaCpu == 3 || escolha == 2 && escolhaCpu == 1 || escolha == 3 && escolhaCpu ==2){
+			ponto+=1 //SOMA MAIS UM, A PONTUAÇÃO DO JOGADOR
+			console.log("Você ganhou"); //IMPRIME NA TELA SE VOCÊ GANHA DA CPU
+		}else if(escolha == escolhaCpu){ //EMPATA A PARTIDA 
+			console.log("Empate"); //IMPRIME NA TELA
+		}else{
+			pontoCpu+=1 //SOMA MAIS UM, A PONTUAÇÃO DA CPU
+			console.log("Cpu ganhou"); //IMPRIME NA TELA SE A CPU GANHA DE VOCÊ
+		}
+console.log("escolha " + ponto + " vs " + pontoCpu + " escolhaCpu"); //PLACAR FINAL DA PONTUAÇÃO DO JOKENPO
+}
+</script>
