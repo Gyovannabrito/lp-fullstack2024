@@ -1,0 +1,25 @@
+<script>
+    //ler um array
+    //de o tamanho X
+    //ler cada elemento
+    //calcular a media dos elementos
+let x = parseInt(prompt());//variavel que guarda o tamanho da array.
+let r = new Array(x);//cria a array do tamanho onde o usuario vai digitar
+let aux = 0;//variavel que guarda a array
+let soma = 0; //variavel que guarda a soma do array
+    for( let i = 0; i < r.length; i++){
+        aux = parseInt(prompt()); //preenchendo
+        r[i] = aux; 
+        soma += r[i] //acumular o array
+        soma/r.length//dividir o tamanho da array 
+    }
+console.log(soma/r.length);
+if(soma/r.length >= 7){
+    console.log("Aprovador");
+    }else if(soma/r.length >= 5 && soma/r.length <= 6.99){
+        console.log("Recuperação");
+    }else {
+        console.log("Reprovado");
+    }
+   
+</script>
