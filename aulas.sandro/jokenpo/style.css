@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, sans-serif; /*alterar a fonte texto da página*/
+    margin: 0;
+    padding: 0;
+    display: flex;/*essas linhas alinharam*/
+    justify-content: center;  
+    align-items: center;	
+    height: 100vh;	/*na horizontal e vertica*/
+
+}
+.container{
+    text-align: center;
+}
+.escolha img{
+    width: 100px; /*ALTERAremos o tamanho dos elementos*/	
+}
+
+    
