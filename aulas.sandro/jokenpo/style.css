@@ -14,10 +14,12 @@ body{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0,0, 0.1);
+    margin-bottom: 50px ;
 
 }
 .escolha img{
     width: 100px; /*ALTERAremos o tamanho dos elementos*/	
+    
 }
 .placar{
     background-color: rgb(255, 255, 255);
