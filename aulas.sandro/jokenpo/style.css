@@ -28,6 +28,4 @@ body{
     box-shadow: 0 0 10px rgb(0,0, 0.1);
     margin: 20px;
     justify-content: flex-end;
-    width: 150px;
-    display: inline-block;
 }
