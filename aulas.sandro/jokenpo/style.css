@@ -15,7 +15,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0,0, 0.1);
     margin-bottom: 50px ;
-
+    margin: 25px;
 }
 .escolha img{
     width: 100px; /*ALTERAremos o tamanho dos elementos*/	
@@ -26,5 +26,8 @@ body{
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0,0, 0.1);
+    margin: 20px;
+    justify-content: flex-end;
+    width: 150px;
+    display: inline-block;
 }
-    
