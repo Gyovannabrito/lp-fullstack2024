@@ -1,0 +1,30 @@
+/*cabeçalho*/
+header img{
+    height: 70px;/*altura*/
+    width: 70px;/*Largura*/
+}
+#secao-banners img{
+    height: 500px;
+}
+#secao-banners h2{
+    text-align: center;
+}
+#secao-banners {
+    width: 1000px;    
+}
+.card{
+    margin: 30px;
+}
+/*Conteudo principal*/
+
+/*banner*/
+
+/*produtos vendidos*/
+
+/*Rodapé*/
+
+/*Botão voltar o topo*/
+
+/*página de login*/
+
+/*Formulário de cadastro*/
