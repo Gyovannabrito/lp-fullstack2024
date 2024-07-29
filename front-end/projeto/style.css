@@ -1,0 +1,61 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{ 
+    background: #4579A2;
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+}
+
+nav{/*nav tem um tamanho padrao*/
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px; /*precisa adicionar width porque ul nao tem largura padrao pra ser adicionada entre eles*/
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background: #4579A2;
+    color: white;
+}
+
+section{
+    display: flex;
+}
+
+.imagem-maior{
+    width: 300px;
+    height: 438px;
+}
+
+.imagem-menor{
+    width: 206px;
+    height: 438px;
+    object-fit: cover;
+}
+
+button{
+    width: 200px;
+    height: 47px;
+    background: #060748;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
