@@ -1,0 +1,29 @@
+header img{
+    height: 84.91px;
+    width: 300px;  
+    margin: auto; 
+    display: block;
+    margin-top: 16px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    font-family: "Inconsolata";
+    font-size: 12px;
+    padding: 6px;
+    margin-top: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+li{
+    margin-right: 25px;
+    
+}
+a{
+text-decoration: none;
+color:black;
+}
